@@ -1,0 +1,65 @@
+base_info:
+  title: 没有安全感的咸鱼
+  author: Spxg
+  url: https://unsafe.me/
+  logo_img: /images/favicon.ico
+
+style:
+  primary_color: "#FF6666"
+  avatar: /images/avatar.png
+  favicon: /images/favicon.ico
+  first_screen:
+    enable: true
+    description: Nothing is impossible to a willing heart.
+  scroll:
+    percent:
+      enable: true
+
+post:
+  word_count:
+    enable: true
+    wordcount: true
+    min2read: true
+  author_label:
+    enable: false
+
+toc:
+  enable: true
+  expand_all: true
+  init_open: false
+
+home_article:
+  category:
+    enable: true
+    limit: 3
+  tag:
+    enable: true
+    limit: 5
+
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/Spxg
+    email: unsafe@outlook.es
+
+website_count:
+  busuanzi_count:
+    enable: true
+    site_uv: true
+    site_pv: true
+    page_pv: true
+
+copyright_info:
+  enable: true
+
+code_copy:
+  enable: true
+
+rss:
+  enable: true
+
+local_search:
+  enable: true
+
+pjax:
+  enable: true
