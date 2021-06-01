@@ -1,5 +1,5 @@
 ---
-title: 使用七牛云对象存储功能加速Wordpress站
+title: 使用七牛云对象存储功能加速WordPress站
 tags: []
 id: '199'
 categories:
@@ -7,7 +7,7 @@ categories:
 date: 2017-05-07 17:45:41
 ---
 
-1.           **_起因_**
+**_起因_**
 
 今天我拿网站出去装B的时候，有人反应根本打不开，我觉得他们![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/240d82b5cc0483b9.jpg)，我怎么能好好访问呢。后来想想我服务器是国外的，而我![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/QQ截图20170507170542.png)全程FQ![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/TX4WO77_DT8SX1J3_YD.jpg)，看来并不是他们的问题![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/8MM7WXFSKR1YKC8.gif)，然后我就有了使用七牛云对象储存功能给国内访问博客加速的想法
 
@@ -24,4 +24,4 @@ date: 2017-05-07 17:45:41
 
 _**我遇到的问题**_
 
-        高高高兴弄完准备测试的时候，打开网站![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/8_Q91CRCI6_AVHUGTG1.png)丫的卡着啊![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/TEJ622NMRFOYJSP5Q7R.jpg)，后来发现问题，把![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/26911VWEX8KASWPYJX1.png)js删掉就好啦![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/0NFPC3GTVEI32KOI.gif)。我用的akina主题 很不错 到这，你是否感觉访问本站快些了呢，快说是 ![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/CCBG1WK8P7R80ML9PP.gif)
+高高高兴弄完准备测试的时候，打开网站![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/8_Q91CRCI6_AVHUGTG1.png)丫的卡着啊![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/TEJ622NMRFOYJSP5Q7R.jpg)，后来发现问题，把![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/26911VWEX8KASWPYJX1.png)js删掉就好啦![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/0NFPC3GTVEI32KOI.gif)。我用的akina主题 很不错 到这，你是否感觉访问本站快些了呢，快说是 ![](http://wordpress-1253676827.file.myqcloud.com/wp-content/uploads/2017/05/CCBG1WK8P7R80ML9PP.gif)

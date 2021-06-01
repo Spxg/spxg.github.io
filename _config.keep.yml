@@ -10,7 +10,7 @@ style:
   favicon: /images/favicon.ico
   first_screen:
     enable: true
-    description: Nothing is impossible to a willing heart.
+    description: 在学习中实践，在实践中学习。
   scroll:
     percent:
       enable: true
