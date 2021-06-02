@@ -1,5 +1,5 @@
 ---
-title: 写OS遇到的让人印象深刻的Bug(RISC-V)
+title: 写OS遇到的让人印象深刻的Bug（RISC-V）
 date: 2021-02-23 23:26:22
 tags:
 categories:
