@@ -44,7 +44,7 @@ do
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int number, even = 0, odd = -1;
     do

@@ -22,7 +22,7 @@ _即将上大学了，准备上一些先修课，[翁恺老师](https://www.icou
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int i, n;
     scanf("%d", &n);
@@ -47,7 +47,7 @@ int main(int argc, char const \*argv\[\])
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int i, n;
     scanf("%d", &n);
@@ -96,7 +96,7 @@ void number(int n)
     printf("%d", i);
 }
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int n;
     scanf("%d", &n);
@@ -112,7 +112,7 @@ int main(int argc, char const \*argv\[\])
 ```c
 #include "decomposition-factor.h"
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int n;
     scanf("%d", &n);
@@ -130,7 +130,7 @@ int main(int argc, char const \*argv\[\])
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int n;
     scanf("%d", &n);

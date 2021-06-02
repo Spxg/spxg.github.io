@@ -20,7 +20,7 @@ namespace program
 {
     class Program
     {
-        static void Main(string\[\] args)
+        static void Main(string[] args)
         {
             Gps gps = new Gps();
             string hour = null;
@@ -58,8 +58,8 @@ namespace program
             int i;
             int xornum = 0;
 
-            for (i = 1; str\[i\] != '\*'; i++)
-                xornum ^= str\[i\];
+            for (i = 1; str[i] != '*'; i++)
+                xornum ^= str[i];
             xornum %= 65536;
 
             return Convert.ToString(xornum, 16).Equals(str.Substring(i + 1));
@@ -68,27 +68,27 @@ namespace program
         public bool CheakLocated(string str)
         {
             int i;
-            for (i = 7; str\[i\] != ','; i++)
+            for (i = 7; str[i] != ','; i++)
                 continue;
-            return str\[i + 1\].Equals('A');
+            return str[i + 1].Equals('A');
         }
 
         public string GetHour(string str)
         {
-            int hour = (str\[7\] - '0') \* 10 + str\[8\] - '0';
+            int hour = (str[7] - '0') * 10 + str[8] - '0';
             hour = (hour + 8) % 24;
             return hour.ToString().PadLeft(2, '0');
         }
 
         public string GetMinute(string str)
         {
-            int minute = (str\[9\] - '0') \* 10 + str\[10\] - '0';
+            int minute = (str[9] - '0') * 10 + str[10] - '0';
             return minute.ToString().PadLeft(2, '0');
         }
 
         public string GetSecond(string str)
         {
-            int second = (str\[11\] - '0') \* 10 + str\[12\] - '0';
+            int second = (str[11] - '0') * 10 + str[12] - '0';
             return second.ToString().PadLeft(2, '0');
         }
     }

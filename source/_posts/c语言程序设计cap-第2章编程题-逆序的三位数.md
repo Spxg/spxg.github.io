@@ -22,7 +22,7 @@ _即将上大学了，准备上一些先修课，[翁恺老师](https://www.icou
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int number;
     scanf("%d", &number);
@@ -36,21 +36,21 @@ int main(int argc, char const \*argv\[\])
 
 ## 正确做法
 
-用个数学式子解决: `c \* 100 + b \* 10 + a`
+用个数学式子解决: `c * 100 + b * 10 + a`
 
 代码可为
 
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int number;
     scanf("%d", &number);
     int a = number / 100;
     int b = number / 10 % 10;
     int c = number % 10;
-    printf("%d", c \* 100 + b \* 10 + a);
+    printf("%d", c * 100 + b * 10 + a);
     return 0;
 }
 ```

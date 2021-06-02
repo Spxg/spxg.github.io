@@ -35,7 +35,7 @@ if (hour < 0)
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int BJT, UTC, minute, hour;
     scanf("%d", &BJT);
@@ -46,7 +46,7 @@ int main(int argc, char const \*argv\[\])
     {
         hour = hour + 24;
     }
-    UTC = hour \* 100 + minute;
+    UTC = hour * 100 + minute;
     printf("%d", UTC);
     return 0;
 }

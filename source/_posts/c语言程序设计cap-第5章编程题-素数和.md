@@ -20,7 +20,7 @@ _即将上大学了，准备上一些先修课，[翁恺老师](https://www.icou
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int origin, i, a = 1;
     scanf("%d", &origin);
@@ -50,7 +50,7 @@ int main(int argc, char const \*argv\[\])
 
 ```c
 int count = 0;
-int number\[200\];
+int number[200];
 int a = 1, origin = 2;
 while (n != count)
 {
@@ -65,7 +65,7 @@ while (n != count)
     if (a != 0)
     {
         count++;
-        number\[count\] = origin;
+        number[count] = origin;
     }
     origin++;
     a = 1;
@@ -88,7 +88,7 @@ while (n != count)
     if (a != 0)
     {
         count++;
-        number\[count\] = origin;
+        number[count] = origin;
     }
     origin++;
     a = 1;
@@ -107,36 +107,36 @@ while (m != count)
     if (a != 0)
     {
         count++;
-        number\[count\] = origin;
+        number[count] = origin;
     }
     origin++;
     a = 1;
 }
 ```
 
-相加之间素数就简单多了，如下，从number\[n\]加到number\[m\]即可
+相加之间素数就简单多了，如下，从number[n]加到number[m]即可
 
 ```c
 for (int i = n; i <= m; i++)
 {
-    sum = sum + number\[i\];
+    sum = sum + number[i];
 }
 ```
 
-**/\*正确做法\*/能够跑起来的做法**
+**/*正确做法*/能够跑起来的做法**
 
 整体代码
 
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int n, m;
     int sum = 0;
     scanf("%d %d", &n, &m);
     int count = 0;
-    int number\[200\];
+    int number[200];
     int a = 1, origin = 2;
     while (n != count)
     {
@@ -151,7 +151,7 @@ int main(int argc, char const \*argv\[\])
         if (a != 0)
         {
             count++;
-            number\[count\] = origin;
+            number[count] = origin;
         }
         origin++;
         a = 1;
@@ -170,7 +170,7 @@ int main(int argc, char const \*argv\[\])
         if (a != 0)
         {
             count++;
-            number\[count\] = origin;
+            number[count] = origin;
         }
         origin++;
         a = 1;
@@ -178,7 +178,7 @@ int main(int argc, char const \*argv\[\])
 
     for (int i = n; i <= m; i++)
     {
-        sum = sum + number\[i\];
+        sum = sum + number[i];
     }
 
     printf("%d", sum);

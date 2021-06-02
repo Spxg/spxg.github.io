@@ -24,7 +24,7 @@ _即将上大学了，准备上一些先修课，[翁恺老师](https://www.icou
 ```c
 #include <stdio.h>
 
-int main(int argc, char const \*argv\[\])
+int main(int argc, char const *argv[])
 {
     int a, b, c;
 
@@ -33,18 +33,18 @@ int main(int argc, char const \*argv\[\])
     
     for (int i = 0; i < 200; i++) //最多200位
     {
-        c = a \* 10 / b;
-        a = a \* 10 % b;
+        c = a * 10 / b;
+        a = a * 10 % b;
         printf("%d", c);
         
         if (a == 0)
         {
-            printf("\\n"); //换行
+            printf("n"); //换行
             break; //余数等于0时退出循环
         }
         
         if (i == 199)
-            printf("\\n");//换行
+            printf("n");//换行
     }
 
     return 0;
