@@ -5,9 +5,8 @@ author: Spxg
 language: en
 timezone: Asia/Shanghai
 
-url: https://unsafe.me/
+url: https://unsafe.me
 
-post_asset_folder: true
 all_minifier: true
 
 theme: keep

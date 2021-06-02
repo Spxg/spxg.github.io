@@ -1,7 +1,6 @@
 ---
 title: Rust生命周期学习
 tags: []
-id: '795'
 categories:
   - - Rust
 date: 2021-01-31 20:38:41

@@ -1,7 +1,6 @@
 ---
 title: T and 'static
 tags: []
-id: '794'
 categories:
   - - Rust
 date: 2021-01-24 21:42:41
