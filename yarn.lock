@@ -1892,10 +1892,10 @@ hexo-theme-fluid@^1.8.12:
   resolved "https://registry.yarnpkg.com/hexo-theme-fluid/-/hexo-theme-fluid-1.8.12.tgz#1f0ed1ed7aa98d832503110cc6eb7d87c9c3b62a"
   integrity sha512-qLgQxtw7w19sNqhY7mllyun8AY6RoVy3bthyWstivpAt8buHjBRCtjZ0Z2UImjtEfmWmenfHJ3tffJ6+qbZxjw==
 
-hexo-theme-keep@^3.4.3:
-  version "3.4.3"
-  resolved "https://registry.nlark.com/hexo-theme-keep/download/hexo-theme-keep-3.4.3.tgz#0cd223cf520e557da5cc6c0922d78f78d321096f"
-  integrity sha1-DNIjz1IOVX2lzGwJItePeNMhCW8=
+hexo-theme-keep@^3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-3.4.5.tgz#01637e4cb1a2180ff4f081416c3c3a594e02079d"
+  integrity sha512-oJ3PUV7dvkIKaCIrxGmDbnesm+sMR0y9F2pwS6Tcen5gz8pJNEhtYHEZEPovw8ct7RAxE+pgYaFfXZGI2bnFbQ==
 
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.5.0, hexo-util@^2.6.0:
   version "2.6.0"
